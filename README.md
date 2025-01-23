@@ -8,7 +8,7 @@ This project demonstrates how to extract structured table data from invoice imag
 - **Grayscale Conversion**: The invoice image is converted to grayscale to reduce complexity.
 - **Thresholding**: Adaptive thresholding is applied to binarize the image, making text and table lines more distinguishable.
 
-### 2. Table Detectio
+### 2. Table Detection
 - **Contour Detection**: OpenCV is used to detect contours in the image. These contours help identify potential table regions by their size and shape.
 - **Region of Interest (ROI)**: The largest contour resembling a table is extracted as the ROI for further processing.
 
