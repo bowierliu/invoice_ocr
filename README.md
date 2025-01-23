@@ -16,7 +16,7 @@ This project demonstrates how to extract structured table data from invoice imag
 - **Text Extraction**: Tesseract OCR is applied to the table region to extract textual data.
 - **Confidence Filtering**: Only text with a confidence score above a threshold is retained to improve accuracy.
 
-### 4. Row and Column Alignment
+### 4. Row and Column Alignmen
 - **Grouping by Rows**: Extracted text is grouped into rows using vertical positions (`top` coordinates).
 - **Dynamic Parsing**: Multi-word entries, such as product names, are combined, and numerical columns are aligned dynamically.
 - **Validation**: Only rows with valid data across all expected columns are included in the final output.
